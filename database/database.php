@@ -1,8 +1,8 @@
 <?php
 $dbhost = "localhost";
-$dbname = "avtoposrednik";
-$username = "root";
-$pass = "root";
+$dbname = "************";
+$username = "************";
+$pass = "************";
 // 
 $db = new PDO("mysql:host=$dbhost; dbname=$dbname", $username, $pass);
 // получение всех статей
@@ -29,9 +29,9 @@ function get_category_by_id_fuel($id) {
 //~ загрузка картинок
 //$server = "localhost" //$server = "127.0.0.1" //! ОДИНАКОВО РАбОТАЕТ
 $server = $_SERVER['SERVER_ADDR']; //! IP адрес сервера на котором выполняется скрипт
-$db_name = "avtoposrednik";
-$user_name = "root";
-$password = "root";
+$db_name = "**********";
+$user_name = ""**********";";
+$password = ""**********";";
 $charset = "utf8";
 // 
 $connection = new mysqli($server, $user_name, $password, $db_name);
